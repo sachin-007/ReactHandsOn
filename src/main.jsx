@@ -18,7 +18,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
 
 
-    {/* <WelcomeReact/> */}
+    <WelcomeReact/>
     {/* <App /> */}
     {/* <ClockApp/> */}
     {/* <FragmentApp/> */}
@@ -27,7 +27,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {/* <Todov1/> */}
     {/* <TodoV2/> */}
     {/* <LinkRouting/> */}
-    <HttpRequestThing/>
+    {/* <HttpRequestThing/> */}
 
   </React.StrictMode>,
 )

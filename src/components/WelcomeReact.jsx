@@ -30,13 +30,13 @@ function WelcomeReact() {
               </ul>
             </nav>
             <Routes>
-          <Route path="/user/:username" element={<UseParamThing />} />
-          <Route path="/ClockApp" element={<ClockApp />} />
-          <Route path="/FragmentApp" element={<FragmentApp />} />
-          <Route path="/StateThings" element={<StateThings />} />
-          <Route path="/RandQuotGen" element={<RandQuotGen />} />
-          <Route path="/Todov1" element={<Todov1 />} />
-          <Route path="/TodoV2" element={<TodoV2 />} />
+          {/* <Route path="/user/:username" element={<UseParamThing />} /> */}
+          <Route path="/user/ClockApp" element={<ClockApp />} />
+          <Route path="/user/FragmentApp" element={<FragmentApp />} />
+          <Route path="/user/StateThings" element={<StateThings />} />
+          <Route path="/user/RandQuotGen" element={<RandQuotGen />} />
+          <Route path="/user/Todov1" element={<Todov1 />} />
+          <Route path="/user/TodoV2" element={<TodoV2 />} />
         </Routes>
         
           </div>
